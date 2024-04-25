@@ -71,7 +71,7 @@ public class AwsService {
 			// converting multipartfile to normalFile
 			File file = convertMultiPartToFile(multipartFile);
 			// fileName = generateFileName(multipartFile);
-			// https://lyfstore.s3.eu-central-1.amazonaws.com/%2B917904215002.mp4
+			
 			fileUrl = endpointUrl + "/" + bucketName + "/" + fileName;
 			uploadFileTos3bucket(fileName, file);
 			file.delete();
