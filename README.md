@@ -5,4 +5,4 @@ The Api are in the controller file
 uploadFile-To upload the video
 uploadImage-To upload the image
 lastmodified-To check the file lastmodified time
-downlaod-to stream the video and image downlaod from the s3bucket.
+downlaod-to stream the video and image downlaod from the s3bucket
